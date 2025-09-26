@@ -8,9 +8,9 @@ int main(int argc, char *argv[])
 {
 
     QApplication a(argc, argv);
-    QIcon icon(":/icons/icons/Clam.png");
+    QIcon icon("/usr/local/share/pixmaps/zapret.png");
     MainWindow w;
-    a.setWindowIcon(icon);
+    w.setWindowIcon(icon);
     w.show();
     return a.exec();
 
